@@ -1,0 +1,26 @@
+# Node modules folder (do not commit dependencies)
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional folders for build / runtime
+dist/
+build/
+uploads/          # if storing images locally
+coverage/         # if using tests and coverage reports
+
+# IDE/editor configs (optional)
+.vscode/
+.idea/
